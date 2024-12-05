@@ -134,84 +134,81 @@ section, footer{
 	width: 276px;
 	height: 223px;
 }
-/* Media Query for Medium Screens (max-width: 1000px) */
 @media (max-width: 1000px) {
     #programme {
-        flex-direction: column; /* Stack elements vertically */
+        flex-direction: column;
         padding: 20px;
     }
 
     #pUp {
-        margin-top: 50px; /* Reduce top margin */
+        margin-top: 50px;
     }
 
     #pUp h2 {
-        font-size: 60px; /* Adjust heading size */
-        opacity: 30%; /* Increase opacity */
+        font-size: 60px;
+        opacity: 30%;
     }
 
     #pUp h3 {
-        font-size: 35px; /* Adjust title size */
+        font-size: 35px; 
     }
 
     #pDown h2 {
-        font-size: 100px; /* Reduce large text size */
+        font-size: 100px;
     }
 
     #progCtnt {
-        flex-direction: column; /* Stack content vertically */
-        margin-top: 40px; /* Adjust spacing */
+        flex-direction: column;
+        margin-top: 40px;
     }
 
     #progDesc {
-        width: 80%; /* Adjust width */
-        text-align: center; /* Center content */
+        width: 80%;
+        text-align: center;
     }
 
     #progDesc h2 {
-        font-size: 60px; /* Reduce heading size */
+        font-size: 60px;
     }
 
     #progDesc h3 {
-        font-size: 28px; /* Adjust subheading size */
+        font-size: 28px;
     }
 
     #progDesc ul li {
-        font-size: 18px; /* Adjust list item font size */
+        font-size: 18px;
     }
 
     #books {
-        flex-direction: column; /* Stack books vertically */
-        gap: 20px; /* Adjust gap */
+        flex-direction: column;
+        gap: 20px; 
     }
 
     #books .bookCarr {
-        width: 80%; /* Adjust book container width */
-        margin: 0 auto; /* Center books */
+        width: 80%;
+        margin: 0 auto; 
     }
 
     #books #bc1, #books #bc2 {
-        width: 80%; /* Adjust image sizes */
-        height: auto; /* Allow height to adjust */
+        width: 80%; 
+        height: auto;
     }
 }
-
-/* Media Query for Tablets (max-width: 768px) */
 @media (max-width: 768px) {
     #programme {
         padding: 15px;
     }
 
     #pUp h2 {
-        font-size: 50px; /* Adjust font size */
+        font-size: 50px;
     }
 
     #pUp h3 {
-        font-size: 30px; /* Adjust font size */
+        font-size: 30px;
     }
 
     #pDown h2 {
-        font-size: 80px; /* Adjust font size */
+        font-size: 80px;
     }
 
     #progCtnt {
@@ -219,19 +216,19 @@ section, footer{
     }
 
     #progDesc {
-        width: 90%; /* Adjust width */
+        width: 90%; 
     }
 
     #progDesc h2 {
-        font-size: 50px; /* Reduce heading size */
+        font-size: 50px; 
     }
 
     #progDesc h3 {
-        font-size: 24px; /* Adjust subheading size */
+        font-size: 24px;
     }
 
     #progDesc ul li {
-        font-size: 16px; /* Adjust list font size */
+        font-size: 16px; 
     }
 
     #books {
@@ -239,66 +236,65 @@ section, footer{
     }
 
     #books .bookCarr {
-        width: 100%; /* Adjust book container width */
+        width: 100%; 
     }
 
     #books #bc1, #books #bc2 {
-        width: 100%; /* Adjust image sizes */
+        width: 100%; 
     }
 }
 
-/* Media Query for Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
     #programme {
         padding: 10px;
     }
 
     #pUp h2 {
-        font-size: 40px; /* Adjust font size */
+        font-size: 40px; 
     }
 
     #pUp h3 {
-        font-size: 25px; /* Adjust font size */
+        font-size: 25px;
     }
 
     #pDown h2 {
-        font-size: 60px; /* Adjust font size */
+        font-size: 60px;
     }
 
     #progCtnt {
         margin-top: 20px;
-        flex-direction: column; /* Stack content vertically */
+        flex-direction: column; 
     }
 
     #progDesc {
-        width: 100%; /* Make description take full width */
+        width: 100%; 
         text-align: center;
     }
 
     #progDesc h2 {
-        font-size: 40px; /* Adjust heading size */
+        font-size: 40px; 
     }
 
     #progDesc h3 {
-        font-size: 20px; /* Adjust subheading size */
+        font-size: 20px; 
     }
 
     #progDesc ul li {
-        font-size: 14px; /* Adjust list item font size */
+        font-size: 14px; 
     }
 
     #books {
-        flex-direction: column; /* Stack books vertically */
+        flex-direction: column; 
     }
 
     #books .bookCarr {
-        width: 90%; /* Adjust book container width */
-        margin: 0 auto; /* Center the book containers */
+        width: 90%; 
+        margin: 0 auto; 
     }
 
     #books #bc1, #books #bc2 {
-        width: 100%; /* Adjust image width */
-        height: auto; /* Allow height to adjust */
+        width: 100%; 
+        height: auto; /
     }
 }
 
@@ -393,13 +389,9 @@ section, footer{
 		width: 50%;
 	}
 }
-
-/* Tablet Portrait */
 @media (max-width: 768px) {
 
 }
-
-/* Mobile Portrait */
 @media (max-width: 480px) {
 	#fbCntnt{
 		display: flex;
@@ -550,180 +542,175 @@ section, footer{
 	left: 25%;
 	transform: rotate(-30deg);
 }
-/* Media Query for Medium Screens (max-width: 1000px) */
 @media (max-width: 1000px) {
     #mentor {
-        height: auto; /* Allow height to adjust */
-        flex-direction: column; /* Stack items vertically */
+        height: auto; 
+        flex-direction: column;
     }
 
     #mentorCntnt {
-        flex-direction: column; /* Stack content vertically */
-        align-items: center; /* Center items */
-        justify-content: center; /* Center vertically */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     #mentorDesc {
-        width: 90%; /* Make description take more width */
-        text-align: center; /* Center text */
-        margin-bottom: 30px; /* Add margin for spacing */
+        width: 90%; 
+        text-align: center; 
+        margin-bottom: 30px; 
     }
 
     #mentorDesc h2 {
-        font-size: 36px; /* Adjust heading size */
+        font-size: 36px;
     }
 
     #mentorDesc h4 {
-        font-size: 30px; /* Adjust subheading size */
+        font-size: 30px; 
     }
 
     #mentorDesc hr {
-        width: 200px; /* Reduce width for small screens */
+        width: 200px; 
     }
 
     #mentorDesc #mentorPar {
-        font-size: 16px; /* Adjust paragraph size */
+        font-size: 16px; 
     }
 
     #mentorDesc h5 {
-        font-size: 22px; /* Adjust small heading size */
+        font-size: 22px; 
     }
 
     #mentorPic {
-        width: 70%; /* Adjust image container width */
-        height: auto; /* Allow height to adjust */
+        width: 70%;
+        height: auto; 
     }
 
     #mentorPic img {
         position: relative;
-        bottom: -20px; /* Adjust positioning */
-        left: -50px; /* Adjust positioning */
-        max-width: 100%; /* Ensure image scales */
+        bottom: -20px; 
+        left: -50px;
+        max-width: 100%;
     }
 
     #mentorPic h3 {
-        font-size: 250px; /* Adjust large number size */
+        font-size: 250px;
     }
 
     #mentorPic h5 {
-        font-size: 100px; /* Adjust signature size */
-        bottom: -60px; /* Adjust positioning */
-        left: 10%; /* Adjust position */
+        font-size: 100px; 
+        bottom: -60px; 
+        left: 10%; 
     }
 }
-
-/* Media Query for Tablets (max-width: 768px) */
 @media (max-width: 768px) {
     #mentor {
-        height: auto; /* Allow height to adjust */
-        padding: 20px; /* Add padding */
+        height: auto; 
+        padding: 20px; 
     }
 
     #mentorCntnt {
-        flex-direction: column; /* Stack content vertically */
-        align-items: center; /* Center items */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     #mentorDesc {
-        width: 85%; /* Adjust width */
-        margin-bottom: 20px; /* Adjust margin */
+        width: 85%;
+        margin-bottom: 20px;
     }
 
     #mentorDesc h2 {
-        font-size: 30px; /* Adjust heading size */
+        font-size: 30px;
     }
 
     #mentorDesc h4 {
-        font-size: 26px; /* Adjust subheading size */
+        font-size: 26px; 
     }
 
     #mentorDesc hr {
-        width: 150px; /* Adjust width */
+        width: 150px;
     }
 
     #mentorDesc #mentorPar {
-        font-size: 14px; /* Adjust paragraph size */
+        font-size: 14px; 
     }
 
     #mentorDesc h5 {
-        font-size: 18px; /* Adjust small heading size */
+        font-size: 18px; 
     }
 
     #mentorPic {
-        width: 80%; /* Adjust image container width */
+        width: 80%; 
     }
 
     #mentorPic img {
         position: relative;
-        left: -30px; /* Adjust position */
-        max-width: 100%; /* Ensure image scales */
+        left: -30px; 
+        max-width: 100%;
     }
 
     #mentorPic h3 {
-        font-size: 180px; /* Adjust large number size */
+        font-size: 180px; 
     }
 
     #mentorPic h5 {
-        font-size: 80px; /* Adjust signature size */
+        font-size: 80px; 
     }
 }
-
-/* Media Query for Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
     #mentor {
-        height: auto; /* Allow height to adjust */
-        padding: 15px; /* Add padding */
+        height: auto; 
+        padding: 15px;
     }
 
     #mentorCntnt {
-        flex-direction: column; /* Stack content vertically */
-        align-items: center; /* Center items */
-        justify-content: center; /* Center vertically */
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
     }
 
     #mentorDesc {
-        width: 90%; /* Adjust width */
-        margin-bottom: 20px; /* Adjust margin */
+        width: 90%;
+        margin-bottom: 20px;
     }
 
     #mentorDesc h2 {
-        font-size: 24px; /* Adjust heading size */
+        font-size: 24px;
     }
 
     #mentorDesc h4 {
-        font-size: 20px; /* Adjust subheading size */
+        font-size: 20px; 
     }
 
     #mentorDesc hr {
-        width: 120px; /* Adjust width */
+        width: 120px; 
     }
 
     #mentorDesc #mentorPar {
-        font-size: 12px; /* Adjust paragraph size */
+        font-size: 12px; 
     }
 
     #mentorDesc h5 {
-        font-size: 16px; /* Adjust small heading size */
+        font-size: 16px; 
     }
 
     #mentorPic {
-        width: 100%; /* Full width for small screens */
-        height: auto; /* Allow height to adjust */
+        width: 100%; 
+        height: auto; 
     }
 
     #mentorPic img {
         position: relative;
-        left: 0; /* Adjust position */
-        max-width: 100%; /* Ensure image scales */
+        left: 0; 
+        max-width: 100%; 
     }
 
     #mentorPic h3 {
-        font-size: 120px; /* Adjust large number size */
+        font-size: 120px; 
     }
 
     #mentorPic h5 {
-        font-size: 60px; /* Adjust signature size */
-        bottom: -40px; /* Adjust positioning */
+        font-size: 60px; 
+        bottom: -40px; 
     }
 }
 
@@ -780,79 +767,74 @@ section, footer{
     justify-content: center;
     gap: 24px;
 }
-/* Media Query for Medium Screens (max-width: 1000px) */
 @media (max-width: 1000px) {
     #hdk-sec {
-        height: auto; /* Allow dynamic height */
-        padding: 20px; /* Add padding for spacing */
+        height: auto;
+        padding: 20px;
         text-align: center;
     }
 
     .partenaires {
-        font-size: 36px; /* Reduce font size */
-        gap: 80px; /* Reduce gap between items */
-        flex-wrap: wrap; /* Allow wrapping for better alignment */
-        justify-content: center; /* Center content */
+        font-size: 36px;
+        gap: 80px; 
+        flex-wrap: wrap; 
+        justify-content: center; 
     }
 
     #porctime, #treking {
-        font-size: 32px; /* Adjust font size */
+        font-size: 32px; 
     }
 
     .cercles {
-        gap: 16px; /* Reduce gap between circles */
+        gap: 16px;
     }
 
     .petitCercle {
-        height: 14px; /* Reduce circle size */
-        width: 14px; /* Reduce circle size */
+        height: 14px; 
+        width: 14px;
     }
 }
-
-/* Media Query for Tablets (max-width: 768px) */
 @media (max-width: 768px) {
     .partenaires {
-        font-size: 28px; /* Further reduce font size */
-        gap: 40px; /* Smaller gap for tighter layout */
+        font-size: 28px; 
+        gap: 40px;
     }
 
     #porctime, #treking {
-        font-size: 24px; /* Smaller font for tablet screens */
+        font-size: 24px;
     }
 
     .cercles {
-        gap: 12px; /* Reduce gap further */
+        gap: 12px;
     }
 
     .petitCercle {
-        height: 12px; /* Adjust circle size for smaller screens */
+        height: 12px; 
         width: 12px;
     }
 }
-
-/* Media Query for Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
     #hdk-sec {
-        padding: 15px; /* Add padding for small screens */
+        padding: 15px; 
     }
 
     .partenaires {
-        font-size: 20px; /* Small font for mobile devices */
-        gap: 20px; /* Minimal gap */
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center align items */
+        font-size: 20px; 
+        gap: 20px;
+        flex-direction: column; 
+        align-items: center;
     }
 
     #porctime, #treking {
-        font-size: 18px; /* Smaller font size */
+        font-size: 18px; 
     }
 
     .cercles {
-        gap: 8px; /* Minimal gap between circles */
+        gap: 8px; 
     }
 
     .petitCercle {
-        height: 10px; /* Smallest size for circles */
+        height: 10px; 
         width: 10px;
     }
 }
@@ -886,72 +868,67 @@ section, footer{
 	font-size: 48px;
 	height: 40px;
 }
-/* Media Query for Medium Screens (max-width: 1000px) */
 @media (max-width: 1000px) {
     #infos {
-        height: auto; /* Allow dynamic height */
-        padding: 20px; /* Add padding for spacing */
-        text-align: center; /* Ensure text stays centered */
+        height: auto; 
+        padding: 20px; 
+        text-align: center;
     }
 
     #cntnt {
-        flex-direction: column; /* Stack items vertically */
-        gap: 60px; /* Reduce the gap */
-        justify-content: center; /* Center the items */
-        align-items: center; /* Center align */
+        flex-direction: column;
+        gap: 60px; 
+        justify-content: center; 
+        align-items: center; 
     }
 
     #cntnt .item .down {
-        width: 280px; /* Adjust width for smaller screens */
-        font-size: 18px; /* Reduce font size */
-        margin-top: 15px; /* Adjust margin */
+        width: 280px; 
+        font-size: 18px;
+        margin-top: 15px;
     }
 
     #cntnt .item .up {
-        font-size: 40px; /* Reduce font size */
+        font-size: 40px; 
     }
 }
-
-/* Media Query for Tablets (max-width: 768px) */
 @media (max-width: 768px) {
     #infos {
-        padding: 15px; /* Adjust padding for spacing */
-        font-size: 18px; /* Reduce font size */
+        padding: 15px; 
+        font-size: 18px;
     }
 
     #cntnt {
-        gap: 40px; /* Further reduce the gap */
+        gap: 40px; 
     }
 
     #cntnt .item .down {
-        width: 240px; /* Adjust width further */
-        font-size: 16px; /* Smaller font size */
+        width: 240px; 
+        font-size: 16px; 
     }
 
     #cntnt .item .up {
-        font-size: 32px; /* Adjust font size */
+        font-size: 32px;
     }
 }
-
-/* Media Query for Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
     #infos {
-        padding: 10px; /* Smaller padding */
-        font-size: 16px; /* Smaller font size for text */
+        padding: 10px; 
+        font-size: 16px;
     }
 
     #cntnt {
-        gap: 20px; /* Minimal gap for mobile */
-        padding: 10px; /* Add padding for spacing */
+        gap: 20px; 
+        padding: 10px; 
     }
 
     #cntnt .item .down {
-        width: 200px; /* Narrower width */
-        font-size: 14px; /* Small font size */
+        width: 200px;
+        font-size: 14px;
     }
 
     #cntnt .item .up {
-        font-size: 24px; /* Smaller font size for numbers */
+        font-size: 24px;
     }
 }
 
@@ -1074,62 +1051,59 @@ section, footer{
 	font-size: 29px;
 	font-weight: bold;
 }
-/* Media Query for Medium Screens (max-width: 1000px) */
 @media (max-width: 1000px) {
     #avantagesCntnt {
-        width: 85%; /* Reduce content width */
-        margin-top: 40px; /* Adjust spacing */
+        width: 85%;
+        margin-top: 40px;
     }
 
     #avantagesCntnt .avantagesHead h3 {
-        font-size: 36px; /* Reduce font size */
+        font-size: 36px; 
     }
 
     #avantagesCntnt .avantagesHead p {
-        font-size: 20px; /* Adjust font size */
+        font-size: 20px; 
     }
 
     #avantagesCntnt .avantagesBody {
-        flex-wrap: wrap; /* Allow items to wrap */
-        gap: 15px; /* Adjust spacing between items */
-        justify-content: center; /* Center items */
+        flex-wrap: wrap; 
+        gap: 15px; 
+        justify-content: center; 
     }
 
     #aRight, #aLeft, #aCenter {
-        width: 260px; /* Adjust card widths */
+        width: 260px; 
     }
 
     .avantage {
-        height: auto; /* Allow dynamic height */
+        height: auto; 
     }
 
     .avantage .aCircle {
-        width: 80px; /* Adjust circle size */
+        width: 80px; 
         height: 80px;
     }
 
     #aCenter .aCircle .bi,
     #aLeft .aCircle .bi,
     #aRight .aCircle .bi {
-        font-size: 40px; /* Reduce icon size */
+        font-size: 40px;
     }
 
     #aCenter h4, #aLeft h4, #aRight h4 {
-        font-size: 14px; /* Adjust heading size */
+        font-size: 14px; 
     }
 
     #aCenter p, #aLeft p, #aRight p {
-        font-size: 12px; /* Adjust paragraph size */
+        font-size: 12px; 
     }
 
     #avantagesCntnt button {
-        width: 70%; /* Adjust button width */
-        height: 70px; /* Adjust button height */
-        font-size: 24px; /* Adjust font size */
+        width: 70%; 
+        height: 70px;
+        font-size: 24px;
     }
 }
-
-/* Media Query for Tablets (max-width: 768px) */
 @media (max-width: 768px) {
     #avantagesCntnt {
         margin-top: 30px;
@@ -1171,11 +1145,9 @@ section, footer{
         font-size: 20px;
     }
 }
-
-/* Media Query for Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
     #avantagesCntnt {
-        width: 95%; /* Maximize use of screen width */
+        width: 95%;
         margin-top: 20px;
     }
 
@@ -1188,12 +1160,12 @@ section, footer{
     }
 
     #avantagesCntnt .avantagesBody {
-        flex-direction: column; /* Stack cards vertically */
+        flex-direction: column;
         gap: 10px;
     }
 
     #aRight, #aLeft, #aCenter {
-        width: 90%; /* Full width for cards */
+        width: 90%; 
     }
 
     .avantage .aCircle {
@@ -1268,71 +1240,68 @@ section, footer{
 }
 @media (max-width: 1000px) {
     #ecCntnt {
-        width: 85%; /* Slightly reduce width */
+        width: 85%;
     }
 
     #ecCntnt img {
-        width: 750px; /* Scale down the image */
-        height: auto; /* Maintain aspect ratio */
-        top: -80px; /* Adjust vertical position */
+        width: 750px;
+        height: auto;
+        top: -80px;
     }
 
     #ecCntnt p {
-        font-size: 20px; /* Slightly reduce font size */
-        margin-top: 280px; /* Adjust margin for layout */
+        font-size: 20px;
+        margin-top: 280px;
     }
 
     #ecCntnt button {
-        width: 50%; /* Adjust button width */
-        height: 80px; /* Reduce button height */
-        font-size: 26px; /* Adjust font size */
+        width: 50%;
+        height: 80px;
+        font-size: 26px;
     }
 }
-/* Media Query for Tablets (max-width: 768px) */
 @media (max-width: 768px) {
     #ecCntnt {
-        width: 90%; /* Adjust width for smaller screens */
+        width: 90%;
     }
 
     #ecCntnt img {
-        width: 480px; /* Reduce image width */
-        height: auto; /* Maintain aspect ratio */
-        top: -50px; /* Adjust vertical positioning */
+        width: 480px;
+        height: auto;
+        top: -50px;
     }
 
     #ecCntnt p {
-        font-size: 18px; /* Reduce font size for readability */
-        margin-top: 250px; /* Adjust margin to fit layout */
+        font-size: 18px;
+        margin-top: 250px;
     }
 
     #ecCntnt button {
-        width: 60%; /* Increase button width for better tap area */
-        height: 70px; /* Reduce height for better proportion */
-        font-size: 24px; /* Adjust font size */
+        width: 60%;
+        height: 70px;
+        font-size: 24px;
     }
 }
-
-/* Media Query for Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
     #ecCntnt {
-        width: 100%; /* Use full width */
+        width: 100%; 
     }
 
     #ecCntnt img {
-        width: 400px; /* Smaller image for mobile */
-        height: auto; /* Maintain aspect ratio */
-        top: -30px; /* Adjust vertical positioning */
+        width: 400px;
+        height: auto;
+        top: -30px;
     }
 
     #ecCntnt p {
-        font-size: 16px; /* Further reduce font size */
-        margin-top: 200px; /* Adjust spacing for smaller screens */
+        font-size: 16px;
+        margin-top: 200px;
     }
 
     #ecCntnt button {
-        width: 80%; /* Full width for mobile */
-        height: 60px; /* Further reduce height */
-        font-size: 18px; /* Smaller font size for buttons */
+        width: 80%;
+        height: 60px;
+        font-size: 18px;
     }
 }
 
@@ -1404,107 +1373,103 @@ section, footer{
 	font-weight: bold;
 	font-family: 'Poppins', sans-serif;
 }
-/* Media Query for Medium Screens (max-width: 1000px) */
 @media (max-width: 1000px) {
     #tradingCntnt {
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center align for better layout */
-        gap: 30px; /* Reduce the gap between elements */
-        width: 90%; /* Adjust width for smaller screens */
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        width: 90%;
     }
 
     #tradingCntnt #result img {
-        height: 600px; /* Scale down image */
-        width: 400px; /* Maintain aspect ratio */
-        top: 0; /* Adjust position */
-        bottom: -50px; /* Adjust spacing */
+        height: 600px;
+        width: 400px;
+        top: 0;
+        bottom: -50px;
     }
 
     #tradingCntnt #result h2 {
-        font-size: 120px; /* Reduce font size */
+        font-size: 120px;
     }
 
     #tradingCntnt #tradingDesc {
-        margin-top: 50px; /* Adjust margin */
-        text-align: center; /* Center text for better alignment */
+        margin-top: 50px;
+        text-align: center;
     }
 
     #tradingCntnt #tradingDesc h3 {
-        font-size: 36px; /* Adjust font size */
+        font-size: 36px;
     }
 
     #tradingCntnt #tradingDesc p {
-        font-size: 20px; /* Adjust font size */
-        margin-top: 20px; /* Reduce margin */
+        font-size: 20px;
+        margin-top: 20px;
     }
 
     #tradingCntnt #tradingDesc button {
-        height: 70px; /* Reduce button height */
-        font-size: 24px; /* Adjust font size */
+        height: 70px;
+        font-size: 24px;
     }
 }
-
-/* Media Query for Tablets (max-width: 768px) */
 @media (max-width: 768px) {
     #tradingCntnt {
-        width: 95%; /* Further reduce width */
-        gap: 20px; /* Adjust gap */
+        width: 95%;
+        gap: 20px;
     }
 
     #tradingCntnt #result img {
-        height: 500px; /* Further scale down image */
-        width: 350px; /* Adjust width */
+        height: 500px;
+        width: 350px;
     }
 
     #tradingCntnt #result h2 {
-        font-size: 100px; /* Further reduce font size */
+        font-size: 100px;
     }
 
     #tradingCntnt #tradingDesc h3 {
-        font-size: 30px; /* Adjust heading size */
+        font-size: 30px;
     }
 
     #tradingCntnt #tradingDesc p {
-        font-size: 18px; /* Adjust paragraph font size */
+        font-size: 18px;
     }
 
     #tradingCntnt #tradingDesc button {
-        height: 60px; /* Further reduce button height */
-        font-size: 20px; /* Adjust button font size */
+        height: 60px;
+        font-size: 20px;
     }
 }
 
-/* Media Query for Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
     #tradingCntnt {
-        width: 100%; /* Full width for mobile */
+        width: 100%;
     }
 
     #tradingCntnt #result img {
-        height: 300px; /* Smaller image for mobile */
-        width: 250px; /* Adjust width */
+        height: 300px; 
+        width: 250px; 
     }
 
     #tradingCntnt #result h2 {
-        font-size: 80px; /* Further reduce font size */
+        font-size: 80px;
     }
 
     #tradingCntnt #tradingDesc {
-        margin-top: 30px; /* Adjust margin */
-        text-align: center; /* Ensure center alignment */
+        margin-top: 30px;
+        text-align: center;
     }
 
     #tradingCntnt #tradingDesc h3 {
-        font-size: 24px; /* Smaller font size */
+        font-size: 24px;
     }
 
     #tradingCntnt #tradingDesc p {
-        font-size: 16px; /* Adjust paragraph font size */
+        font-size: 16px;
     }
 
     #tradingCntnt #tradingDesc button {
-        height: 50px; /* Small button height */
-        font-size: 18px; /* Smaller font size for button */
+        height: 50px
+        font-size: 18px;
     }
 }
 
@@ -1589,110 +1554,108 @@ section, footer{
 
 @media (max-width: 768px) {
     .forDesc {
-        width: 60%; /* Increase width for better fit */
-        left: 50%; /* Adjust positioning */
-        bottom: -50px; /* Adjust bottom position */
-        transform: translateX(-50%); /* Center horizontally */
-        padding: 10px; /* Add padding for spacing */
+        width: 60%;
+        left: 50%;
+        bottom: -50px;
+        transform: translateX(-50%);
+        padding: 10px;
     }
 
     .forDesc h3 {
-        font-size: 24px; /* Reduce font size for smaller screens */
+        font-size: 24px;
         margin-bottom: 20px;
     }
 
     .forDesc img {
-        width: 300px; /* Reduce image width */
-        height: auto; /* Maintain aspect ratio */
+        width: 300px; 
+        height: auto; 
     }
 
     .forDesc p {
-        font-size: 18px; /* Adjust font size */
+        font-size: 18px;
         padding-bottom: 20px;
         margin-bottom: 20px;
     }
 
     .forDesc ul {
-        font-size: 18px; /* Reduce font size for list items */
+        font-size: 18px;
     }
 
     .forDesc button {
-        width: 90%; /* Increase width for touch-friendly buttons */
-        height: 70px; /* Reduce button height */
-        font-size: 24px; /* Adjust font size */
+        width: 90%;
+        height: 70px; 
+        font-size: 24px;
         margin-top: 25px;
     }
 }
-
-/* Media Query for Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
     .forDesc {
-        width: 90%; /* Use almost full width */
+        width: 90%; 
         left: 50%;
-        bottom: -20px; /* Adjust bottom position */
-        transform: translateX(-50%); /* Center horizontally */
+        bottom: -20px;
+        transform: translateX(-50%);
         padding: 15px;
     }
 
     .forDesc h3 {
-        font-size: 20px; /* Further reduce font size */
+        font-size: 20px;
         margin-bottom: 15px;
     }
 
     .forDesc img {
-        width: 250px; /* Smaller image width */
+        width: 250px;
     }
 
     .forDesc p {
-        font-size: 16px; /* Reduce font size */
+        font-size: 16px;
         padding-bottom: 15px;
         margin-bottom: 15px;
     }
 
     .forDesc ul {
-        font-size: 16px; /* Smaller font size */
+        font-size: 16px;
     }
 
     .forDesc button {
-        width: 100%; /* Full width for buttons */
-        height: 60px; /* Further reduce button height */
-        font-size: 18px; /* Smaller font size */
+        width: 100%;
+        height: 60px;
+        font-size: 18px;
         margin-top: 20px;
     }
 }
 @media (max-width: 1000px) {
     .forDesc {
-        width: 60%; /* Increase width to accommodate smaller screens */
-        left: 50%; /* Adjust positioning */
-        bottom: -50px; /* Raise the element slightly */
-        transform: translateX(-50%); /* Center horizontally */
+        width: 60%;
+        left: 50%;
+        bottom: -50px;
+        transform: translateX(-50%);
     }
 
     .forDesc h3 {
-        font-size: 28px; /* Reduce font size slightly */
-        margin-bottom: 20px; /* Adjust spacing */
+        font-size: 28px;
+        margin-bottom: 20px;
     }
 
     .forDesc img {
-        width: 300px; /* Scale down the image */
-        height: auto; /* Maintain aspect ratio */
-        margin-top: 15px; /* Adjust margin */
+        width: 300px;
+        height: auto;
+        margin-top: 15px;
     }
 
     .forDesc p {
-        font-size: 18px; /* Reduce font size */
-        padding-bottom: 20px; /* Adjust padding */
-        margin-bottom: 20px; /* Adjust margin */
+        font-size: 18px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
 
     .forDesc ul {
-        font-size: 18px; /* Reduce font size */
+        font-size: 18px;
     }
 
     .forDesc button {
-        height: 70px; /* Reduce button height */
-        font-size: 24px; /* Adjust font size */
-        margin-top: 30px; /* Adjust top margin */
+        height: 70px;
+        font-size: 24px;
+        margin-top: 30px;
     }
 }
 
@@ -1856,27 +1819,25 @@ footer img{
 	display: flex;
   	justify-content: space-between;
 }
-/* Media Query for Tablets (max-width: 768px) */
 @media (max-width: 1000px) {
     #ctent h2 {
-        font-size: 40px; /* Reduce font size for tablets */
-        margin-top: 4px; /* Adjust margin for spacing */
-        margin-bottom: 50px; /* Reduce bottom margin */
+        font-size: 40px;
+        margin-top: 4px;
+        margin-bottom: 50px;
     }
 }
 @media (max-width: 768px) {
     #ctent h2 {
-        font-size: 30px; /* Reduce font size for tablets */
-        margin-top: 4px; /* Adjust margin for spacing */
-        margin-bottom: 50px; /* Reduce bottom margin */
+        font-size: 30px;
+        margin-top: 4px;
+        margin-bottom: 50px;
     }
 }
 
-/* Media Query for Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
     #ctent h2 {
-        font-size: 10px; /* Further reduce font size for mobile */
-        margin-top: 2px; /* Adjust top margin for compact spacing */
-        margin-bottom: 30px; /* Minimize bottom margin for smaller screens */
+        font-size: 10px; 
+        margin-top: 2px; 
+        margin-bottom: 30px; 
     }
 }
